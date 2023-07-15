@@ -17,6 +17,7 @@ window.onload = function () {
   restartButton.addEventListener("click", function () {
     restartGame();
   });
+}
 
     // Function that handles keydown event
   function handleKeydown(event) {
