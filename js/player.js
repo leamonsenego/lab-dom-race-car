@@ -49,4 +49,8 @@ class Player extends Component {
       return false;
     }
   }
+   updatePosition() {
+    this.element.style.left = `${this.left}px`;
+    this.element.style.top = `${this.top}px`;
+  }
 }
