@@ -10,6 +10,12 @@ class Obstacle extends Component {
     );
   }
 
+  updatePosition() {
+    // Update the obstacle's position based on the properties left and top
+    this.element.style.left = `${this.left}px`;
+    this.element.style.top = `${this.top}px`;
+  }
+
   move() {
     this.top += 3;
 
